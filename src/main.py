@@ -12,7 +12,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "secrets/cloud-storage-sa-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/etc/secrets/cloud-storage-sa-key.json"
 
 apartments_model = None
 houses_model = None
